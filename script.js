@@ -1,16 +1,37 @@
-// Write your JavaScript code here!
+// // Write your JavaScript code here!
 
-window.addEventListener("load", function() {
+// //var { myFetch, pickPlanet } = require("./scriptHelper"); //this was the auto-generated import but it caused an error. auto-gen used const.
+// //const helper = require("./scriptHelper");
+// //import listedPlanets from 'scriptHelper.js';
 
-   let listedPlanets;
-   // Set listedPlanetsResponse equal to the value returned by calling myFetch()
-   let listedPlanetsResponse;
-   listedPlanetsResponse.then(function (result) {
-       listedPlanets = result;
-       console.log(listedPlanets);
-   }).then(function () {
-       console.log(listedPlanets);
-       // Below this comment call the appropriate helper functions to pick a planet fom the list of planets and add that information to your destination.
-   })
-   
-});
+// window.addEventListener("load", function(event) {
+//     let listedPlanets;
+
+//     // Set listedPlanetsResponse equal to the value returned by calling myFetch()
+//     let listedPlanetsResponse = myFetch();
+
+//     listedPlanetsResponse.then(function(result) {
+
+//         listedPlanets = result;
+
+//         let chosenPlanet = pickPlanet(listedPlanets);
+//         console.log(chosenPlanet)
+
+//         addDestinationInfo(chosenPlanet);
+
+//     });
+  
+// });
+
+
+
+
+
+
+// module.exports.addDestinationInfo = addDestinationInfo;
+// module.exports.validateInput = validateInput;
+// module.exports.formSubmission = formSubmission;
+// module.exports.pickPlanet = pickPlanet;
+// module.exports.myFetch = myFetch;
+
+
